@@ -1,10 +1,11 @@
 /* Global Variables */
 :root {
-    --primary-color: #00bcd4;
-    /* Cyan/Teal shade */
-    --secondary-color: #008ba3;
-    --accent-color: #ff4081;
-    /* Pink accent */
+    --primary-color: #003366;
+    /* Navy Blue */
+    --secondary-color: #e91e63;
+    /* Deep Pink */
+    --accent-color: #ffd700;
+    /* Gold/Yellow */
     --text-dark: #333333;
     --text-light: #666666;
     --bg-light: #f9f9f9;
@@ -48,7 +49,7 @@ img {
 }
 
 .highlight {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .container {
@@ -65,7 +66,7 @@ img {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
-    color: var(--text-dark);
+    color: var(--primary-color);
 }
 
 .section-subtitle {
@@ -140,14 +141,15 @@ img {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--text-dark);
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .logo i {
-    color: var(--primary-color);
+    color: var(--accent-color);
+    filter: drop-shadow(1px 1px 0 #00000010);
 }
 
 .nav-list {
